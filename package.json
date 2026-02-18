@@ -6,7 +6,12 @@
     "repository": "https://github.com/jankohlbach/The-Best-Theme",
     "version": "2.1.8",
     "engines": {
-        "vscode": "^1.36.0"
+        "vscode": "^1.36.0",
+        "node": ">=24.0.0 <25.0.0",
+        "npm": ">=11.0.0 <12.0.0"
+    },
+    "dependencies": {
+        "@vscode/vsce": "^3.7.1"
     },
     "categories": [
         "Themes"
